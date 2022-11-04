@@ -105,24 +105,25 @@
             <form class="row g-3">
                 <div class="col-12 col-md-6">
                     <label for="inputName" class="form-label">First name</label>
-                    <input type="text" class="form-control" id="inputName" value="Giorgio">
+                    <input type="text" class="form-control" id="inputName" placeholder="Enter your first name..." value="Giorgio">
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="inputLastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="inputLastName" value="Galli">
+                    <input type="text" class="form-control" id="inputLastName" placeholder="Enter your last name..." value="Galli">
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="inputEmail" class="form-label">Email address</label>
-                    <input type="email" class="form-control" id="inputEmail" value="giorgiogalli@gmail.com">
+                    <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com" value="giorgiogalli@gmail.com">
                 </div>
                 <div class="col-12 col-md-6">
-                    <label for="inputHour" class="form-label">Hours requested</label>
-                    <input type="text" class="form-control" id="inputHour" value="10">
+                    <label for="inputHours" class="form-label">Hours requested</label>
+                    <input type="text" class="form-control" id="inputHours" placeholder="Hours requested..." value="10">
                 </div>
                 <div class="col-12 col-md-6">
                     <label for="inputWork" class="form-label">Type of work</label>
                     <select id="inputWork" class="form-select">
-                        <option selected>Backend Development</option>
+                        <option selected>Select the type of work</option>
+                        <option>Backend Development</option>
                         <option>Frontend Development</option>
                         <option>Project Analisys</option>
                     </select>
@@ -133,8 +134,7 @@
                 </div>
                 <div class="col-12">
                     <label for="inputMessage" class="form-label">Message</label>
-                    <input type="text" class="form-control text-left" id="inputMessage"
-                        value="Vorrei commissionare uno sviluppo backend" style="height: 150px">
+                    <input type="text" class="form-control text-left" id="inputMessage" placeholder="Specify your work commission..." value="Vorrei commissionare uno sviluppo backend" style="height: 150px">
                 </div>
                 <div class="col-12 text-center">
                     <button type="submit" class="btn btn-warning">Send</button>
